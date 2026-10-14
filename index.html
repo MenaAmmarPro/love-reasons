@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b20">
+  <meta name="description" content="A little reason, every single day, made for Mena.">
+  <title>Reasons ✦ for Mena</title>
+  <link rel="canonical" href="https://ammar49-cyber.github.io/love-reasons/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Reasons — for Mena">
+  <meta property="og:title" content="Reasons ✦ for Mena">
+  <meta property="og:description" content="A little reason, every single day, made for Mena.">
+  <meta property="og:url" content="https://ammar49-cyber.github.io/love-reasons/">
+  <meta property="og:image" content="https://ammar49-cyber.github.io/love-reasons/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A reason every day, for Mena">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Reasons ✦ for Mena">
+  <meta name="twitter:description" content="A little reason, every single day, made for Mena.">
+  <meta name="twitter:image" content="https://ammar49-cyber.github.io/love-reasons/assets/og-image.png">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="js/theme-main.js" defer></script>
+  <script src="js/effects.js" defer></script>
+  <script src="js/reasons-data.js" defer></script>
+  <script src="js/app.js" defer></script>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Reasons">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">✦ Reasons</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">Menu</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="index.html">Today</a>
+      <a href="#card">Make a card</a>
+      <a href="#all">All the reasons</a>
+      <a href="https://ammar49-cyber.github.io/loveformymena/">Our little universe ↗</a>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme">Theme</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero reasons-hero">
+      <p class="eyebrow">ONE REASON AT A TIME</p>
+      <div class="moon" aria-hidden="true">♡</div>
+      <p class="small-caption">A new one, every morning.</p>
+      <h1>Reasons I love <span>you, Mena.</span></h1>
+      <p class="hero-description">
+        There are more than I could ever fit here, but here is one for today —
+        and another whenever you want it.
+      </p>
+      <p class="signature">Made with love, just for you <span>♥</span></p>
+    </section>
+
+    <section class="section reason-section">
+      <p class="eyebrow" id="reason-date">TODAY</p>
+      <div class="reason-card">
+        <span class="reason-mark" aria-hidden="true">✦</span>
+        <p class="reason-text" id="reason-text" aria-live="polite">
+          A reason is on its way…
+        </p>
+        <button class="button button-primary" id="reason-button" type="button">
+          Tell me another <span>♡</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="card">
+      <p class="eyebrow">KEEP IT</p>
+      <h2>Make a <span>little card.</span></h2>
+      <p class="section-copy">
+        Turn today's reason into a picture you can save, send, or set as a
+        wallpaper.
+      </p>
+      <div class="card-stage">
+        <canvas id="reason-card" width="1080" height="1080" aria-label="A shareable card with today's reason"></canvas>
+      </div>
+      <p class="center-link">
+        <button class="button button-primary" id="download-card" type="button">Download the card <span>↓</span></button>
+      </p>
+    </section>
+
+    <section class="section" id="all">
+      <p class="eyebrow">JUST A FEW OF THEM</p>
+      <h2>All the <span>reasons.</span></h2>
+      <ul class="reason-list" id="reason-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made with care <span>♥</span> for Mena</p>
+    <p class="footer-small">A little universe of its own ✦</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* love-reasons — page-specific styles (built on css/theme.css) */
+
+.reasons-hero {
+  min-height: 520px;
+}
+
+.reason-section {
+  text-align: center;
+}
+
+.reason-card {
+  max-width: 720px;
+  margin: 26px auto 0;
+  padding: 44px 30px 38px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  position: relative;
+  backdrop-filter: blur(6px);
+}
+
+.reason-mark {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--pink);
+  opacity: 0.8;
+}
+
+.reason-text {
+  font-size: clamp(1.25rem, 4vw, 1.9rem);
+  line-height: 1.5;
+  color: var(--text);
+  margin: 0 0 26px;
+  font-weight: 600;
+}
+
+.reason-text.pop {
+  animation: reason-pop 0.4s ease;
+}
+
+@keyframes reason-pop {
+  0% { opacity: 0; transform: translateY(8px) scale(0.98); }
+  100% { opacity: 1; transform: none; }
+}
+
+/* ---- card stage ---- */
+.card-stage {
+  display: flex;
+  justify-content: center;
+  margin: 26px auto 6px;
+}
+
+#reason-card {
+  width: min(420px, 86vw);
+  height: auto;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+/* ---- all reasons ---- */
+.reason-list {
+  list-style: none;
+  padding: 0;
+  margin: 28px auto 0;
+  max-width: 680px;
+  display: grid;
+  gap: 10px;
+}
+
+.reason-list li {
+  padding: 14px 18px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--pink);
+  border-radius: 12px;
+  background: var(--panel);
+  color: var(--text);
+}
