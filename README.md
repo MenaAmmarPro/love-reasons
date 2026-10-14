@@ -3,7 +3,7 @@
 A new little reason, every single day — plus a shareable card you can save as
 a picture. Part of the **Love for Mena** collection.
 
-**Live:** https://ammar49-cyber.github.io/love-reasons/
+**Live:** https://menaammarpro.github.io/love-reasons/
 
 ## What it does
 
@@ -44,4 +44,4 @@ Static site, deployed with GitHub Pages from `main`.
 ## License
 
 Creative Commons BY-NC-ND 4.0 — see [`LICENSE`](LICENSE).
-© 2026 Ammar (ammar49-cyber). Made with care for Mena.
+© 2026 Ammar (MenaAmmarPro). Made with care for Mena.
